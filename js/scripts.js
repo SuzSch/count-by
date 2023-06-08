@@ -21,7 +21,7 @@ function counter(countTo, countBy){
         return "please enter number"
     }
     if (num2 > num1) {
-        return "please enter number"
+        return "your first number should be greater than your second."
     }
     for (let i = num2; i <= num1; i += num2) {
     console.log(i);
